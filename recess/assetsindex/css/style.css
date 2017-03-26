@@ -1,0 +1,197 @@
+﻿
+
+
+body {
+     font-family:'Open Sans', sans-serif;
+    font-size:14px;
+    background-image:url(../img/sativa.png);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+h1 {
+    line-height:50px;
+    font-weight:900;
+    font-size:30px;
+    text-transform:uppercase;
+    text-align:center;
+    color:#282828;
+}
+    h1::after {
+        display: block;
+content: "";
+height: 2px;
+width: 150px;
+background:#282828;
+margin: 5px auto 40px;
+    }
+
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    line-height:50px;
+    color:#282828;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+}
+h4 {
+   padding-top: 25px;
+line-height: 40px;
+padding-bottom: 0px;
+font-size: 22px;
+font-weight: 900;
+
+}
+.adjst {
+     padding-top: 0px;
+}
+.c-main {
+    color:#282828;
+}
+p {
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+
+.space-free {
+    height:100px;
+}
+
+.g-pad-bottom {
+    padding-bottom:40px;
+}
+
+section {
+    padding-top:50px;
+    margin-top:50px;
+}
+
+
+.form-control {
+        background-color: rgba(255, 255, 255, 0);
+}
+.c-pr-i {
+    color:#282828;
+    padding-left:10px;
+    padding-right:10px;
+}
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+.go-marg {
+    margin-top:40px;
+    color:white;
+}
+
+#home-sec { 
+  
+    
+background: url(../img/bg3.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+    padding-bottom:200px;
+    color:#fff;
+}
+
+.head-main {
+    font-size:60px ;
+    font-weight:900;
+    border:5px double #fff;
+    padding:5px;
+    text-transform:uppercase;
+    
+}
+.head-sub-main {
+    font-size:23px ;
+    font-weight:500;
+    padding:50px 20px 10px 20px;
+     text-transform:uppercase;
+    
+}
+.head-last {
+    font-size:18px ;
+    font-weight:900;
+    padding:5px 20px 20px 20px;
+    border:1px dotted #fff;
+    padding:5px;
+}
+
+
+/* ===========================================================
+   NAVBAR CHANGES   
+   ============================================================*/
+.navbar ,.login{
+	font-size: 16px;
+}
+
+.navbar-inverse ,.login {
+background: #282828;
+min-height: 60px;
+padding-top: 5px;
+
+}
+
+.navbar-inverse :hover ,.navbar-brand:hover ,.login {
+	color: #ffffff;	
+}
+.navbar-inverse .navbar-nav > li > a ,.login{
+color: #FFFFFF;
+}
+.navbar-inverse ,.login{
+border-color: #282828;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form ,.login {
+border-color:#282828;
+}
+
+
+#footer {
+    background-color:#282828;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+}
+
+
+*[role="form"] {
+	
+    max-width: 530px;
+    margin: 0 auto;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
